@@ -7,7 +7,7 @@ const page = async ({ params }) => {
     <div>
       <h1>Post details</h1>
 
-      <Suspense fallback={<h1>Loading...</h1>}>
+      <Suspense fallback={<h1 className="text-teal-400">Waiiiit...</h1>}>
         <PostDeatisl postId={postId} />
       </Suspense>
     </div>
